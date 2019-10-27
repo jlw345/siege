@@ -6,11 +6,17 @@ Siege是一款开源的压力测试工具，设计用于评估WEB应用在压力
 下面我就为大家带来安装教程和使用方法
 
 安装方法
+
 yum install gcc
+
 wget https://github.com/jlw345/siege/raw/master/siege-4.0.4.tar.gz
+
 tar -zxf siege-4.0.4.tar.gz
+
 cd siege-4.0.4
+
 ./configure;make
+
 make install
 
 以上就是一键安装命令一键就可以安装完毕，我们就已经更新到官网最新版本~
